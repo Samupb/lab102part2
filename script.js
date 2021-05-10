@@ -1,5 +1,9 @@
 // JavaScript to be added
 
 function miFunc() {
-    prompt('Insert your email');
+    let email = prompt('Insert your email');
+    if(email) {
+      document.getElementById('button-yellow').innerHTML= 'Thanks for your email!'
+    }
+
   }
